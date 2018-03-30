@@ -34,7 +34,11 @@ export class InFrontOfYou extends React.Component {
 }
 
 export class ButcherShop extends React.Component {
-
+  render() {
+    return React.createElement('div', { className: 'butcher-shop' },
+    React.createElement('p', {}, 'Hello! We have the following products for sale today:') 
+  )
+  }
 }
 
 
